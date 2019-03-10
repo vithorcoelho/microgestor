@@ -22,7 +22,7 @@
 
 									<hr>
 	
-								
+									<h3>Emitente</h3>
 									<table class="table table-bordered">
 										<tr>	
 											<td>Empresa:</td>
@@ -35,7 +35,6 @@
 											<td>Bairro:</td>
 											<td>Email:</td>
 										</tr>
-									
 									</table>
 
 									<div class="row">
