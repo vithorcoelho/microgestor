@@ -1,6 +1,6 @@
 <?php
 
-	define('URLBASE', 'https://www.microgestor.me');
+	define('URLBASE', 'http://localhost/microgestor');
 
 	define('URLBASE_ADMIN', (URLBASE . 'admin/'));
 
