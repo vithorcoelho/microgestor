@@ -21,6 +21,22 @@
 									</div>
 
 									<hr>
+	
+								
+									<table class="table table-bordered">
+										<tr>	
+											<td>Empresa:</td>
+											<td>CNPJ:</td>
+											<td>Telefone:</td>
+										</tr>
+
+										<tr>	
+											<td>Cidade:</td>
+											<td>Bairro:</td>
+											<td>Email:</td>
+										</tr>
+									
+									</table>
 
 									<div class="row">
 										<div class="col-6">
@@ -98,8 +114,8 @@
 
 <script type="text/javascript">
 
-$(function(){
-	window.print();
-});
+//$(function(){
+//	window.print();
+//});
 	
 </script>

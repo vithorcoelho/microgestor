@@ -203,8 +203,8 @@ class Vendas extends MX_Controller
 
 		$dados['total_venda'] = number_format($total_venda, 2, ',', '.');
 
-		$this->load->view('construcao');
-		//$this->load->view('gerarpdf_pedido', $dados);
+		//$this->load->view('construcao');
+		$this->load->view('gerarpdf_pedido', $dados);
 	}
 	
 	public function Ajax_AtualizarVenda()

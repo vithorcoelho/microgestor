@@ -5,6 +5,8 @@ class Configuracoes extends MX_Controller
 	{
 		parent::__construct();
 
+		$this->load->model('Configuracoes_model');
+
 		login_verify();
 	}
 
@@ -12,6 +14,6 @@ class Configuracoes extends MX_Controller
 	{
 		$dados['page_titulo'] = 'Configurações';
 		$dados['css'] = array(str_replace('admin/', '', base_url('assets/styles/profile/settings.min.css')));
-		$this->load->view('Configuracoes', $dados);
+		$this->load->view('configuracoes', $dados);
 	}
 }
