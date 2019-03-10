@@ -4,10 +4,10 @@
 
 	define('URLBASE_ADMIN', (URLBASE . 'admin/'));
 
-	define('HOST', 'localhost');
+	define('HOST', 'mysql995.umbler.com');
 
 	define('DBNAME', 'erp');
 
-	define('USER', 'root');
+	define('USER', 'super_admin');
 	
-	define('PASS', '');
+	define('PASS', 'LuciferGalileu1564');
